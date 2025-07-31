@@ -46,7 +46,7 @@ model = FastVisionModel.get_peft_model(
 )
 ```
 
-We need to load the dataset
+We need to load the dataset.  I used minhhungg/plant-disease-dataset in Huggingface.  It has answers that is comprehensive and scientific.
 
 Data Prep
 ```
@@ -72,6 +72,8 @@ def convert_to_conversation(sample):
     return {"messages": conversation}
 pass
 ```
+
+
 
 
 

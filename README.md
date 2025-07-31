@@ -4,7 +4,7 @@ This is a technical writeup for Gemma 3n impact Challenge.
 ![Plant Disease scientific analyzer.JPG](https://github.com/tomtyiu/Plant_Disease_analysis_writeup/blob/main/Plant%20Disease%20scientific%20analyzer.JPG?raw=true)
 
 
-In order to fine tune gemma with plant disease dataset. I want this fine tune model to be a agent that specialize plant disease analyzes.
+To fine-tune Gemma with the plant disease dataset. I want this fine-tuned model to be an agent that specializes in plant disease analysis. Most models do not have accurate information on plant disease.  My purpose is to fine-tune the Gemma 3n model to specialize in scientific plant disease.
 
 First I need to install the unsloth dependencies
 ```

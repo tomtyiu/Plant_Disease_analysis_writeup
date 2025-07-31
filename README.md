@@ -19,8 +19,7 @@ else:
 # Install latest transformers for Gemma 3N
 !pip install --no-deps --upgrade timm # LOnly for Gemma 3N
 ```
-We need to add LoRA adapters for parameter for fine tuning the model, allowing unsloth to train only 1% of all model parameter effecrtively
-
+We need to add LoRA adapters for parameter for fine tuning the model, allowing unsloth to train only 1% of all model parameter effecrtively.  When r is larger, it menas the higher the accuracy.   In order to fine tune vision latyer, we set to True.
 ```
 model = FastVisionModel.get_peft_model(
     model,

@@ -46,4 +46,32 @@ model = FastVisionModel.get_peft_model(
 )
 ```
 
+We need to load the dataset
+
+Data Prep
+```
+from datasets import load_dataset
+dataset = load_dataset("minhhungg/plant-disease-dataset", split = "train")
+```
+
+Than format the data
+```
+instruction = "Analyze the plant disease for this image."
+
+def convert_to_conversation(sample):
+    conversation = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": instruction},
+                {"type": "image", "image": sample["image"]},
+            ],
+        },
+        {"role": "assistant", "content": [{"type": "text", "text": sample["answer"]}]},
+    ]
+    return {"messages": conversation}
+pass
+```
+
+
 

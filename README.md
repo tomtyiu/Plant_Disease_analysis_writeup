@@ -1,5 +1,7 @@
 # Plant_Disease_analysis_writeup
 This is a technical writeup for Gemma 3n impact Challenge.
+![Plant Disease scientific analyzer](./Plant Disease scientific analyzer.JPG)
+
 
 In order to fine tune gemma with plant disease dataset. I want this fine tune model to be a agent that specialize plant disease analyzes.
 

@@ -147,6 +147,10 @@ Long-term Solutions
 Developing resistant coffee varieties, improving irrigation, and implementing crop rotation are long-term solutions to minimize disease risk. Research on the epidemiology of leaf spot and the development of new fungicides or biological control agents is ongoing.
 ```
 
+## Model
+Link to the model
+[PD_gemma-3n-E4B-v2](https://huggingface.co/EpistemeAI/PD_gemma-3n-E4B-v2)
+
 This is demo
 [Demo](https://huggingface.co/spaces/legolasyiu/Gemma3N-challenge)
 

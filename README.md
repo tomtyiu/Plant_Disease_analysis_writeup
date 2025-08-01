@@ -4,7 +4,7 @@ This is a technical writeup for Gemma 3n impact Challenge.
 ![Plant Disease scientific analyzer.JPG](https://github.com/tomtyiu/Plant_Disease_analysis_writeup/blob/main/Plant%20Disease%20scientific%20analyzer.JPG?raw=true)
 
 
-To fine-tune Gemma with the plant disease dataset. I want this fine-tuned model to be an agent that specializes in plant disease analysis. Most models do not have accurate information on plant disease.  My purpose is to fine-tune the Gemma 3n model to specialize in scientific plant disease.
+To fine-tune Gemma with the plant disease dataset. I want this fine-tuned model to be an agent that specializes in plant disease scientific analysis. Most models do not have accurate information on plant disease.  My purpose is to fine-tune the Gemma 3n model to specialize in scientific plant disease.
 
 First I need to install the unsloth dependencies
 ```
@@ -116,4 +116,6 @@ trainer = SFTTrainer(
 )
 trainer_stats = trainer.train()
 ```
+
+After the training, the Gemma PD model provide comprehensive analysis of the plant disease for given picture.
 

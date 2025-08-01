@@ -170,7 +170,6 @@ This is demo
       <img src="https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png" width="143">
     </a>
   </div>
-<h1 style="margin-top: 0rem;">🐋 DeepSeek-R1-0528 Usage Guidelines</h1>
 </div>
 
 

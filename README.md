@@ -163,11 +163,10 @@ This is demo
     <a href="https://github.com/unslothai/unsloth/">
       <img src="https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png" width="133">
     </a>
-    <a href="https://discord.gg/unsloth">
-      <img src="https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png" width="173">
-    </a>
   </div>
 </div>
+
+### 
 
 
 

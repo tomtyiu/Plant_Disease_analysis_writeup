@@ -168,3 +168,5 @@ Link to the model
 
 Thank for minhhungg for allow me to fine tune the Huggingface dataset:  minhhungg/plant-disease-dataset
 
+<a href="https://github.com/tomtyiu/Plant_Disease_analysis_writeup">Plant_Disease_analysis_writeup</a> © 2025 by <a href="https://creativecommons.org">Thomas Yiu</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+

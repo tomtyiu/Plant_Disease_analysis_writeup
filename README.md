@@ -119,3 +119,31 @@ trainer_stats = trainer.train()
 
 After the training, the Gemma PD model provide comprehensive analysis of the plant disease for given picture.
 
+Here is example output of the model:
+```
+Coffee leaf spot is caused by the fungus Cercospora coffeicola. The disease is widespread in coffee-growing regions of the world and can cause significant yield losses.
+
+Symptoms
+Coffee leaf spot appears as small, circular to oval, dark brown to black spots on the upper leaf surface. These spots expand and coalesce, causing large areas of leaf discoloration. The leaves then turn brown and dry, resulting in reduced photosynthetic activity and yield.
+
+Causes
+The disease is caused by the fungus Cercospora coffeicola, which overwinters on fallen leaves and branches. It produces brown to black, fruiting bodies (perithecia) on the leaf surfaces. These bodies release infective spores (zoospores) that are carried by wind or rain to new hosts.
+
+Management
+Management focuses on reducing the fungus's overwintering stages:
+
+* Remove fallen leaves and debris to reduce the fungus's overwintering sites.
+* Use certified coffee planting materials to avoid introduction of new strains of the fungus.
+* Apply protectant fungicides, such as chlorothalonil or thiophanate-methyl, at 2-4 week intervals during wet springs and warm temperatures (65-80°F, 18-26°C). Apply at a rate of 1-2 lbs/acre (1.1-2.3 kg/ha) in a spray mixture containing a wetting agent to maximize coverage.
+
+Cultural Practices
+Cultural practices that increase the plant's resistance to leaf spot can be implemented:
+
+* Maintain good cultural practices, such as fertilizing, irrigation, and pest control, to support overall plant health.
+* Plant resistant coffee varieties, such as those with enhanced water-use efficiency.
+* Maintain adequate tree spacing and pruning to promote air circulation and sunlight penetration to lower leaf surfaces.
+
+Long-term Solutions
+Developing resistant coffee varieties, improving irrigation, and implementing crop rotation are long-term solutions to minimize disease risk. Research on the epidemiology of leaf spot and the development of new fungicides or biological control agents is ongoing.
+```
+

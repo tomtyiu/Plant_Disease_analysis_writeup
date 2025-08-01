@@ -157,7 +157,7 @@ Link to the model
 This is demo
 [Demo](https://huggingface.co/spaces/legolasyiu/Gemma3N-challenge)
 
-## Citation
+## Special thanks
 <div>
   <div style="display: flex; gap: 5px; align-items: center; ">
     <a href="https://github.com/unslothai/unsloth/">
@@ -165,9 +165,6 @@ This is demo
     </a>
     <a href="https://discord.gg/unsloth">
       <img src="https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png" width="173">
-    </a>
-    <a href="https://docs.unsloth.ai/basics/deepseek-r1-0528-how-to-run-locally">
-      <img src="https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png" width="143">
     </a>
   </div>
 </div>

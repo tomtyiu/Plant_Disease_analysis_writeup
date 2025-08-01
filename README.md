@@ -166,5 +166,5 @@ This is demo
   </div>
 </div>
 
-### Thank for minhhungg for allow me to fine tune the Huggingface dataset:  minhhungg/plant-disease-dataset
+Thank for minhhungg for allow me to fine tune the Huggingface dataset:  minhhungg/plant-disease-dataset
 

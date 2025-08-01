@@ -377,7 +377,7 @@ We also support saving to `float16` directly. Select `merged_16bit` for float16.
 if False: model.save_pretrained_merged("unsloth_finetune", processor,)
 
 # To export and save to your Hugging Face account
-if True: model.push_to_hub_merged("EpistemeAI/PD_gemma-3n-E4B", processor, token = token)
+if True: model.push_to_hub_merged("EpistemeAI/PD_gemma-3n-E4B-v2a", processor, token = token)
 
 """And we're done! If you have any questions on Unsloth, we have a [Discord](https://discord.gg/unsloth) channel! If you find any bugs or want to keep updated with the latest LLM stuff, or need help, join projects etc, feel free to join our Discord!
 

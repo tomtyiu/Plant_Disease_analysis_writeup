@@ -146,6 +146,9 @@ Cultural practices that increase the plant's resistance to leaf spot can be impl
 Long-term Solutions
 Developing resistant coffee varieties, improving irrigation, and implementing crop rotation are long-term solutions to minimize disease risk. Research on the epidemiology of leaf spot and the development of new fungicides or biological control agents is ongoing.
 ```
+## Challenges
+The difficulty with this project is that I have to find the good quality dataset and also find ways to train the Gemma E4B.  It was difficult because there was no way to train Gemma E4B in the beginning for images.  
+I asked [unsloth](https://docs.unsloth.ai/) to make a Vision fine tune notebook in order for me to be able to fine tune the model for plant disease project. 
 
 ## Model
 Link to the model
@@ -153,6 +156,22 @@ Link to the model
 
 This is demo
 [Demo](https://huggingface.co/spaces/legolasyiu/Gemma3N-challenge)
+
+## Citation
+<div>
+  <div style="display: flex; gap: 5px; align-items: center; ">
+    <a href="https://github.com/unslothai/unsloth/">
+      <img src="https://github.com/unslothai/unsloth/raw/main/images/unsloth%20new%20logo.png" width="133">
+    </a>
+    <a href="https://discord.gg/unsloth">
+      <img src="https://github.com/unslothai/unsloth/raw/main/images/Discord%20button.png" width="173">
+    </a>
+    <a href="https://docs.unsloth.ai/basics/deepseek-r1-0528-how-to-run-locally">
+      <img src="https://raw.githubusercontent.com/unslothai/unsloth/refs/heads/main/images/documentation%20green%20button.png" width="143">
+    </a>
+  </div>
+<h1 style="margin-top: 0rem;">🐋 DeepSeek-R1-0528 Usage Guidelines</h1>
+</div>
 
 
 

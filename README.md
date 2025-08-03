@@ -134,7 +134,13 @@ To reduce the risk of apple scab, plant scab-resistant varieties, practice good 
 The difficulty with this project is that I have to find the good quality dataset and also find ways to train the Gemma E4B.  It was difficult because there was no way to train Gemma E4B in the beginning for images.  
 I asked [unsloth](https://docs.unsloth.ai/) to make a Vision fine tune notebook in order for me to be able to fine tune the model for plant disease project. 
 
-## How to use
+## Usage
+
+Below, there are some code snippets on how to get quickly started with running the model. First, install the Transformers library. Gemma 3n is supported starting from transformers 4.53.0.
+
+$ pip install -U transformers
+
+Then, copy the snippet from the section that is relevant for your use case.
 
 #### Running with the `pipeline` API
 

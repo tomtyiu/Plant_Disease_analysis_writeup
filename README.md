@@ -153,6 +153,8 @@ I asked [unsloth](https://docs.unsloth.ai/) to make a Vision fine tune notebook 
 ## Model
 Link to the model
 - [PD_gemma-3n-E4B-v2](https://huggingface.co/EpistemeAI/PD_gemma-3n-E4B-v2)
+  [PD_gemma-3n-E2B](https://huggingface.co/EpistemeAI/PD_gemma-3n-E2B)
+
 
 ## Demo
 [Demo](https://huggingface.co/spaces/legolasyiu/Gemma3N-challenge)

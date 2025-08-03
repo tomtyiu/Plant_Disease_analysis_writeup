@@ -121,30 +121,11 @@ After the training, the Gemma PD model provide comprehensive analysis of the pla
 
 Here is example output of the model:
 ```
-Coffee leaf spot is caused by the fungus Cercospora coffeicola. The disease is widespread in coffee-growing regions of the world and can cause significant yield losses.
+The image shows apple scab, caused by the fungal pathogen Venturia inaequalis. The disease is characterized by the appearance of irregular, dark brown to black, circular or oval spots on the apple leaves. These spots are often surrounded by a darker halo and can coalesce to cover large portions of the leaf surface. Severe infections can cause extensive leaf damage, including leaf distortion, deformation, and necrosis.
 
-Symptoms
-Coffee leaf spot appears as small, circular to oval, dark brown to black spots on the upper leaf surface. These spots expand and coalesce, causing large areas of leaf discoloration. The leaves then turn brown and dry, resulting in reduced photosynthetic activity and yield.
+The primary management strategy for apple scab is a fungicide application program starting at bud break and continuing through the growing season. These fungicides may be applied as sprays or as soil drenches (for systemic action). Fungicides can be applied at regular intervals, starting in spring and continuing into the summer, with resistance management in mind.
 
-Causes
-The disease is caused by the fungus Cercospora coffeicola, which overwinters on fallen leaves and branches. It produces brown to black, fruiting bodies (perithecia) on the leaf surfaces. These bodies release infective spores (zoospores) that are carried by wind or rain to new hosts.
-
-Management
-Management focuses on reducing the fungus's overwintering stages:
-
-* Remove fallen leaves and debris to reduce the fungus's overwintering sites.
-* Use certified coffee planting materials to avoid introduction of new strains of the fungus.
-* Apply protectant fungicides, such as chlorothalonil or thiophanate-methyl, at 2-4 week intervals during wet springs and warm temperatures (65-80°F, 18-26°C). Apply at a rate of 1-2 lbs/acre (1.1-2.3 kg/ha) in a spray mixture containing a wetting agent to maximize coverage.
-
-Cultural Practices
-Cultural practices that increase the plant's resistance to leaf spot can be implemented:
-
-* Maintain good cultural practices, such as fertilizing, irrigation, and pest control, to support overall plant health.
-* Plant resistant coffee varieties, such as those with enhanced water-use efficiency.
-* Maintain adequate tree spacing and pruning to promote air circulation and sunlight penetration to lower leaf surfaces.
-
-Long-term Solutions
-Developing resistant coffee varieties, improving irrigation, and implementing crop rotation are long-term solutions to minimize disease risk. Research on the epidemiology of leaf spot and the development of new fungicides or biological control agents is ongoing.
+To reduce the risk of apple scab, plant scab-resistant varieties, practice good orchard sanitation by removing fallen leaves and infected wood, and consider crop rotation, as some apple scab fungi can overwinter on wild cherry species and other hosts. Cultural practices, such as providing good air circulation and maintaining balanced nutrition, can also help reduce disease pressure.
 ```
 ## Challenges
 The difficulty with this project is that I have to find the good quality dataset and also find ways to train the Gemma E4B.  It was difficult because there was no way to train Gemma E4B in the beginning for images.  

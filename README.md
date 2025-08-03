@@ -1,4 +1,4 @@
-# Plant_Disease_analysis_writeup
+Ion# Plant_Disease_analysis_writeup
 This is a technical writeup for Gemma 3n impact Challenge.
 
 ![Plant Disease scientific analyzer.JPG](https://github.com/tomtyiu/Plant_Disease_analysis_writeup/blob/main/scientificplantdiseaseanalyzer.JPG)
@@ -134,6 +134,83 @@ To reduce the risk of apple scab, plant scab-resistant varieties, practice good 
 The difficulty with this project is that I have to find the good quality dataset and also find ways to train the Gemma E4B.  It was difficult because there was no way to train Gemma E4B in the beginning for images.  
 I asked [unsloth](https://docs.unsloth.ai/) to make a Vision fine tune notebook in order for me to be able to fine tune the model for plant disease project. 
 
+## How to use
+
+#### Running with the `pipeline` API
+
+You can initialize the model and processor for inference with `pipeline` as
+follows.
+
+```python
+from transformers import pipeline
+import torch
+pipe = pipeline(
+    "image-text-to-text",
+    model="EpistemeAI/PD_gemma-3n-E4B-v2",
+    device="cuda",
+    torch_dtype=torch.bfloat16,
+)
+```
+
+With instruction-tuned models, you need to use chat templates to process our
+inputs first. Then, you can pass it to the pipeline.
+
+```python
+messages = [
+    {
+        "role": "system",
+        "content": [{"type": "text", "text": "You are a helpful assistant."}]
+    },
+    {
+        "role": "user",
+        "content": [
+            {"type": "image", "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/p-blog/candy.JPG"},
+            {"type": "text", "text": "What animal is on the candy?"}
+        ]
+    }
+]
+output = pipe(text=messages, max_new_tokens=200)
+print(output[0]["generated_text"][-1]["content"])
+# Okay, let's take a look!
+# Based on the image, the animal on the candy is a **turtle**.
+# You can see the shell shape and the head and legs.
+```
+        
+this is the demo [Demo](https://huggingface.co/spaces/legolasyiu/Gemma3N-challenge)
+
+## Model parameter:
+Model size: 8.39B 
+Tensor type: BF16
+
+
+## Training Dataset
+- Dataset name: minhhungg/plant-disease-dataset
+  - 70,295 rows
+  -  70,295 24bit, 256x256 images of plant disease, questions and answers
+
+## LoRa and Training Parameters
+- LoRA Adapter Parameters
+  - r = 32, lora_alpha = 32, lora_dropout = 0, bias = "none", random_state = 3407
+
+- Training Parameters
+  - per_device_train_batch_size = 1, gradient_accumulation_steps = 4, gradient_checkpointing = True, gradient_checkpointing_kwargs = {"use_reentrant": False},
+  - max_grad_norm = 0.3, warmup_ratio = 0.03, max_steps = 60, learning_rate = 2e-4, logging_steps = 1, save_strategy="steps", optim = "adamw_torch_fused", weight_decay = 0.01,
+  - lr_scheduler_type = "cosine", seed = 3407
+
+## Benchmark
+
+-  mmlu_prox_en_biology benchmark result
+hf (pretrained=EpistemeAI/PD_gemma-3n-E4B-v2), gen_kwargs: (None), limit: None, num_fewshot: 1, batch_size: 8
+| Tasks |Version|    Filter    |n-shot|  Metric   |   |PD Gemma| Jamba 1.6 Mini |
+|-------|------:|--------------|-----:|-----------|---|----:|----:|
+|biology|      0|custom-extract|     1|exact_match|↑  |0.4786| 0.279|
+
+mmlu_pro_plus_en_biology
+| Tasks |Version|    Filter    |n-shot|  Metric   |   |Value | 
+|-------|------:|--------------|-----:|-----------|---|-----:|
+|biology|      1|custom-extract|     5|exact_match|↑  |0.3453|
+
+
 ## Model
 Link to the model
 - [PD_gemma-3n-E4B-v2](https://huggingface.co/EpistemeAI/PD_gemma-3n-E4B-v2)
@@ -153,6 +230,8 @@ Link to the model
 </div>
 
 Thank for minhhungg for allow me to fine tune the Huggingface dataset:  minhhungg/plant-disease-dataset
+
+
 
 ## LICENSE
 

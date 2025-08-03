@@ -1,7 +1,7 @@
 # Plant_Disease_analysis_writeup
 This is a technical writeup for Gemma 3n impact Challenge.
 
-![Plant Disease scientific analyzer.JPG](https://github.com/tomtyiu/Plant_Disease_analysis_writeup/blob/main/Plant%20Disease%20scientific%20analyzer.JPG?raw=true)
+![Plant Disease scientific analyzer.JPG](https://github.com/tomtyiu/Plant_Disease_analysis_writeup/blob/main/scientificplantdiseaseanalyzer.JPG)
 
 
 To fine-tune Gemma with the plant disease dataset. I want this fine-tuned model to be an agent that specializes in plant disease scientific analysis. Most models do not have accurate information on plant disease.  My purpose is to fine-tune the Gemma 3n model to specialize in scientific plant disease.

@@ -199,7 +199,7 @@ Tensor type: BF16
 
 ## Benchmark
 
--  mmlu_prox_en_biology benchmark result
+mmlu_prox_en_biology benchmark result
 hf (pretrained=EpistemeAI/PD_gemma-3n-E4B-v2), gen_kwargs: (None), limit: None, num_fewshot: 1, batch_size: 8
 | Tasks |Version|    Filter    |n-shot|  Metric   |   |PD Gemma| Jamba 1.6 Mini |
 |-------|------:|--------------|-----:|-----------|---|----:|----:|

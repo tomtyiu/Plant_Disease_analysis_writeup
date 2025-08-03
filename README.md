@@ -119,7 +119,9 @@ trainer_stats = trainer.train()
 
 After the training, the Gemma PD model provide comprehensive analysis of the plant disease for given picture.
 
-Here is example output of the model:
+Here is example, image input, and output of the model:
+![Plant Disease scientific analyzer.JPG](https://github.com/tomtyiu/Plant_Disease_analysis_writeup/blob/main/scientificplantdiseaseanalyzer.JPG)
+
 ```
 The image shows apple scab, caused by the fungal pathogen Venturia inaequalis. The disease is characterized by the appearance of irregular, dark brown to black, circular or oval spots on the apple leaves. These spots are often surrounded by a darker halo and can coalesce to cover large portions of the leaf surface. Severe infections can cause extensive leaf damage, including leaf distortion, deformation, and necrosis.
 

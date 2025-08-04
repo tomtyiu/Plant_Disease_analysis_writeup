@@ -1,4 +1,4 @@
-Ion# Plant_Disease_analysis_writeup
+# Plant Disease analysis writeup
 This is a technical writeup for Gemma 3n impact Challenge.
 
 ![Plant Disease scientific analyzer.JPG](https://github.com/tomtyiu/Plant_Disease_analysis_writeup/blob/main/scientificplantdiseaseanalyzer.JPG)
@@ -187,6 +187,16 @@ this is the demo [Demo](https://huggingface.co/spaces/legolasyiu/Gemma3N-challen
 ## Model parameter:
 Model size: 8.39B 
 Tensor type: BF16
+
+
+## Gemma 3n Architecture Highlights*
+
+MatFormer Architecture:
+- A nested transformer design, similar to Matryoshka embeddings, allows for various subsets of layers to be extracted as if they were individual models.
+E2B and E4B were trained together, configuring E2B as a sub-model of E4B.
+Users can “mix and match” layers, depending on their hardware characteristics and memory budget.
+- **Per-Layer Embeddings (PLE)**: Reduces accelerator memory usage by offloading embeddings to the CPU. This is the reason why the E2B model, while having 5B real parameters, takes about as much GPU memory as if it were a 2B parameter model.
+- **KV Cache Sharing**: Accelerates long-context processing for audio and video, achieving 2x faster prefill compared to Gemma 3 4B.
 
 
 ## Training Dataset

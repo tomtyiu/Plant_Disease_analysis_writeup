@@ -230,6 +230,9 @@ mmlu_pro_plus_en_biology
 |---------------------|------:|------|-----:|--------|---|-----:| -----:| -----:|
 |gpqa_diamond_zeroshot|      1|none  |     0|acc     |↑  |0.3824| 0.237 | 61.350% increase in gpqa diamond|
 
+<img width="751" height="452" alt="image" src="https://github.com/user-attachments/assets/e6a1b3cf-abbf-4a5d-903c-8a13293366b5" />
+
+
 ## Model
 Link to the model
 - [PD_gemma-3n-E4B-v2](https://huggingface.co/EpistemeAI/PD_gemma-3n-E4B-v2)

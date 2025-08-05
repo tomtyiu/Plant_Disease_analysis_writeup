@@ -226,6 +226,9 @@ mmlu_pro_plus_en_biology
 |-------|------:|--------------|-----:|-----------|---|-----:|
 |biology|      1|custom-extract|     5|exact_match|↑  |0.3453|
 
+|        Tasks        |Version|Filter|n-shot| Metric |   |PD-Gemma 3n-E4B |  E4B IT| changes |
+|---------------------|------:|------|-----:|--------|---|-----:| -----:| -----:|
+|gpqa_diamond_zeroshot|      1|none  |     0|acc     |↑  |0.3824| 0.237 | 61.350% increase in gpqa diamond|
 
 ## Model
 Link to the model
